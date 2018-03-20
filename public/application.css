@@ -1,0 +1,33 @@
+body * { margin: 20px auto; width: 500px; text-align: center; font-family: Sintony; }
+body { margin: 40px auto; background: #f2f2f2; background: -webkit-linear-gradient(-90deg, #f2f2f2, #f2f9df); }
+
+#sentence, form { padding-bottom: 49px; border-bottom: 1px solid #ccc; margin-bottom: 50px; }
+
+label, input, button { display: block; text-align: center; padding: 10px; font-size: 30px; line-height: 30px; width: 500px; }
+label { padding: 0; }
+button {
+  cursor: pointer;
+  color: #333;
+  background: #f4f4f4;
+
+  border: 1px solid #ccc;
+  border-radius: 3px;
+
+  text-shadow: 0 1px 1px #fff;
+  box-shadow: inset 0 5px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+button:hover, button:focus, button:active {
+  background: #e6e6e6;
+}
+button:active {
+  background: #ccc;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+}
+a { color: #9c9; text-decoration: none; }
+.error { color: #995555; }
+
+.orphan, .twitter-tweet a, .twitter-tweet--loading a { font: 18px/162px Georgia, "Times New Roman", Palatino, serif; color: #333; }
+.orphan, .twitter-tweet, .twitter-tweet--loading { text-indent: 20px; background: #eee; border-radius: 5px; width: 495px; height: 162px; line-height: 162px; margin: 10px auto; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.148438); text-align: left; }
+.orphan { background: #fff url("confused.jpg") no-repeat 400px bottom; }
+
+#credits p { margin: 0; line-height: 40px; }
